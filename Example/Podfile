@@ -1,0 +1,9 @@
+
+source 'https://cdn.cocoapods.org/'
+source 'https://github.com/TuyaInc/TYPublicSpecs.git'
+
+platform :ios, '9.0'
+
+target 'TuyaSmartPanelSDK_Example' do
+   pod 'TuyaSmartPanelSDK'
+end

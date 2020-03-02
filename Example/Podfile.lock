@@ -1,0 +1,304 @@
+PODS:
+  - CocoaAsyncSocket (7.6.4)
+  - DACircularProgress (2.3.1)
+  - EZAudio (1.1.5):
+    - EZAudio/Full (= 1.1.5)
+  - EZAudio/Core (1.1.5)
+  - EZAudio/Full (1.1.5):
+    - EZAudio/Core
+    - TPCircularBuffer (= 1.1)
+  - lottie-ios (2.5.3)
+  - Masonry (1.1.0)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (3.3.1)
+  - MMKV (1.0.24)
+  - MQTTClient (0.15.2):
+    - MQTTClient/Core (= 0.15.2)
+  - MQTTClient/Core (0.15.2):
+    - MQTTClient/Manager
+    - MQTTClient/Min
+  - MQTTClient/Manager (0.15.2):
+    - MQTTClient/Min
+  - MQTTClient/Min (0.15.2)
+  - OpenSSL-Universal (1.0.2.17)
+  - Reachability (3.2)
+  - SDWebImage/Core (4.4.8)
+  - TheAmazingAudioEngine (1.5.8)
+  - TPCircularBuffer (1.1)
+  - TuyaRNApi/Basic (5.22.48):
+    - TuyaRNApi/Core
+    - TuyaRNApiBasic
+  - TuyaRNApi/Core (5.22.48)
+  - TuyaRNApiBasic (5.22.48):
+    - EZAudio
+    - TheAmazingAudioEngine
+    - TuyaSmartActivatorKit
+    - TuyaSmartBLEKit
+    - TuyaSmartBLEMeshKit
+    - TuyaSmartDeviceKit
+    - TYBluetooth
+    - TYEncryptImage
+    - TYKVStorageLibrary
+    - TYNavigationController
+    - TYOEMConfig
+    - TYPanelContext
+    - TYReactNative
+    - TYSmartBusinessLibrary
+    - TYUIKit
+    - TZImagePickerController
+  - TuyaSmartActivatorKit (3.14.1):
+    - TuyaSmartDeviceKit
+  - TuyaSmartBaseKit (3.14.5):
+    - TuyaSmartUtil
+    - YYModel
+  - TuyaSmartBLEKit (3.14.0):
+    - TuyaSmartActivatorKit
+    - TuyaSmartBaseKit
+    - TuyaSmartDeviceKit
+    - TYBluetooth
+  - TuyaSmartBLEMeshKit (3.14.0):
+    - OpenSSL-Universal (= 1.0.2.17)
+    - TuyaSmartActivatorKit
+    - TuyaSmartBaseKit
+    - TuyaSmartBLEKit
+    - TuyaSmartDeviceKit
+    - TYBluetooth
+  - TuyaSmartDeviceKit (3.14.1):
+    - TuyaSmartBaseKit
+    - TuyaSmartMQTTChannelKit
+    - TuyaSmartSocketChannelKit
+  - TuyaSmartMQTTChannelKit (3.14.0):
+    - MQTTClient (= 0.15.2)
+    - TuyaSmartBaseKit
+  - TuyaSmartPanelSDK (0.4.0):
+    - TuyaRNApi/Basic
+    - TuyaSmartBLEKit
+    - TuyaSmartBLEMeshKit
+    - TuyaSmartDeviceKit
+    - TuyaSmartSceneKit
+    - TYLanguageBundleRegister
+    - TYPanelModule
+    - TYTimerModule
+  - TuyaSmartSceneKit (3.14.2):
+    - TuyaSmartBaseKit
+    - TuyaSmartDeviceKit
+  - TuyaSmartSocketChannelKit (3.14.0):
+    - CocoaAsyncSocket
+    - TuyaSmartBaseKit
+  - TuyaSmartTimerKit (3.13.0):
+    - TuyaSmartBaseKit
+    - TuyaSmartDeviceKit
+  - TuyaSmartUtil (3.14.8)
+  - TYAlertPickerComponent (0.3.0):
+    - TYAnimationKit
+    - TYSmartBusinessLibrary
+  - TYAnimationKit (1.1.2):
+    - TYModuleManager
+    - TYNavigationController
+  - TYBlockKit (0.0.4)
+  - TYBluetooth (3.14.0)
+  - TYEncryptImage (1.0.8):
+    - SDWebImage/Core (~> 4.4.3)
+    - TYFoundationKit
+  - TYFoundationKit (1.1.0):
+    - Reachability
+  - TYKVStorageLibrary (0.3.3):
+    - MMKV
+    - TuyaSmartBaseKit
+    - UICKeyChainStore
+  - TYLanguageBundleRegister (0.0.2):
+    - TYFoundationKit
+  - TYLogMacro (0.0.2)
+  - TYModuleManager (2.1.0)
+  - TYModuleServices (0.5.1)
+  - TYNavigationController (1.1.1):
+    - TYUIKit
+  - TYOEMConfig (1.9.0):
+    - TuyaSmartBaseKit
+    - TYFoundationKit
+    - TYUIKit
+    - YYModel
+  - TYPanelBundleManager (1.0.1):
+    - DACircularProgress
+    - TuyaSmartBaseKit
+    - TuyaSmartDeviceKit
+    - TuyaSmartUtil
+    - TYFoundationKit
+    - TYKVStorageLibrary
+    - TYLogMacro
+    - TYSmartEventPredefined
+    - TYTarKit
+    - TYUIKit
+  - TYPanelContext (0.2.6):
+    - Reachability
+    - TuyaSmartDeviceKit
+    - TYFoundationKit
+    - TYModuleManager
+    - TYModuleServices
+    - TYReactNative
+  - TYPanelModule (2.1.2):
+    - DACircularProgress
+    - TuyaRNApi/Core
+    - TuyaSmartBLEKit
+    - TuyaSmartBLEMeshKit
+    - TuyaSmartDeviceKit
+    - TuyaSmartSceneKit
+    - TYAlertPickerComponent
+    - TYModuleManager
+    - TYModuleServices
+    - TYPanelBundleManager
+    - TYPanelContext
+    - TYReactNative
+    - TYSmartBusinessLibrary
+    - TYSmartEventPredefined
+    - TYTarKit
+  - TYReactNative (0.2.6)
+  - TYSmartBusinessLibrary (3.16.8):
+    - lottie-ios (~> 2.5.0)
+    - Masonry
+    - MBProgressHUD (~> 0.9.2)
+    - MJRefresh
+    - Reachability
+    - TuyaSmartBaseKit
+    - TYBlockKit
+    - TYFoundationKit
+    - TYKVStorageLibrary
+    - TYLogMacro
+    - TYNavigationController
+    - TYOEMConfig
+    - TYUIKit
+  - TYSmartEventPredefined (1.2.32)
+  - TYTarKit (0.1.5)
+  - TYTimerModule (2.1.0):
+    - TuyaSmartBLEKit
+    - TuyaSmartBLEMeshKit
+    - TuyaSmartDeviceKit
+    - TuyaSmartTimerKit
+    - TYAlertPickerComponent
+    - TYFoundationKit
+    - TYModuleManager
+    - TYModuleServices
+    - TYSmartBusinessLibrary
+    - TYSmartEventPredefined
+    - TYUIKit
+  - TYUIKit (1.1.0)
+  - TZImagePickerController (3.3.1)
+  - UICKeyChainStore (2.1.2)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - TuyaSmartPanelSDK
+
+SPEC REPOS:
+  https://github.com/TuyaInc/TYPublicSpecs.git:
+    - TuyaRNApi
+    - TuyaRNApiBasic
+    - TuyaSmartPanelSDK
+    - TYAlertPickerComponent
+    - TYAnimationKit
+    - TYBlockKit
+    - TYEncryptImage
+    - TYFoundationKit
+    - TYKVStorageLibrary
+    - TYLanguageBundleRegister
+    - TYLogMacro
+    - TYModuleManager
+    - TYModuleServices
+    - TYNavigationController
+    - TYOEMConfig
+    - TYPanelBundleManager
+    - TYPanelContext
+    - TYPanelModule
+    - TYReactNative
+    - TYSmartBusinessLibrary
+    - TYSmartEventPredefined
+    - TYTarKit
+    - TYTimerModule
+    - TYUIKit
+  trunk:
+    - CocoaAsyncSocket
+    - DACircularProgress
+    - EZAudio
+    - lottie-ios
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MMKV
+    - MQTTClient
+    - OpenSSL-Universal
+    - Reachability
+    - SDWebImage
+    - TheAmazingAudioEngine
+    - TPCircularBuffer
+    - TuyaSmartActivatorKit
+    - TuyaSmartBaseKit
+    - TuyaSmartBLEKit
+    - TuyaSmartBLEMeshKit
+    - TuyaSmartDeviceKit
+    - TuyaSmartMQTTChannelKit
+    - TuyaSmartSceneKit
+    - TuyaSmartSocketChannelKit
+    - TuyaSmartTimerKit
+    - TuyaSmartUtil
+    - TYBluetooth
+    - TZImagePickerController
+    - UICKeyChainStore
+    - YYModel
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  EZAudio: 3b1cb4b6d7ebca68f0c2478576d75940aad4aa99
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
+  MMKV: 758b2edee46b08bdd958db4169191afb9a6d4ebd
+  MQTTClient: 902c7bcac1501595f3d0b15178c7205b40331fb0
+  OpenSSL-Universal: ff04c2e6befc3f1247ae039e60c93f76345b3b5a
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
+  TheAmazingAudioEngine: 24e382d9468283bb1b3f08df29b514aa522ef4fd
+  TPCircularBuffer: 4960a919e667280f7f38963d771f45871b64fe62
+  TuyaRNApi: ee7efb3849cd2fab8f4d07469170505ba0f9321d
+  TuyaRNApiBasic: c929a219b3d33487d0343a93635bce1eb5e52ac8
+  TuyaSmartActivatorKit: d07ce11bf12254903839dc9ee8fe3b27aeeb1fec
+  TuyaSmartBaseKit: 9fe55a3c611a6c69b69da4e31136ed361d003a04
+  TuyaSmartBLEKit: bb899c0b660fb33f6a8f876b07bae002896539a6
+  TuyaSmartBLEMeshKit: 26c959e8a66e379e00160cdbb8c63990d7297eab
+  TuyaSmartDeviceKit: afd76bf477e6a88cbe9eb18270c61fb94fd50264
+  TuyaSmartMQTTChannelKit: d78d301516294239a3db96bc7b81b1e667d4a40d
+  TuyaSmartPanelSDK: 21d9eeb3111ed17552a71d48aaa28e931509e37d
+  TuyaSmartSceneKit: 235ea1b7bd1cd0f2eee30836376a4c87701e73b7
+  TuyaSmartSocketChannelKit: 286654a004f3b6f81b6c2277cab2cfac72a21156
+  TuyaSmartTimerKit: 3296a4e8ab503f6f6e84849591cfc3492c28a5ed
+  TuyaSmartUtil: a4370126ae4f182f6d3a63d8a35bb71938b2a91b
+  TYAlertPickerComponent: 432ef71c4b6f0d9acac4f7b7e136a724d4de4258
+  TYAnimationKit: b1ec458ea8fd6d6ea3e317bb8a175bf28abd4fc6
+  TYBlockKit: d3bc97c2ce1d569d5445a6c3740fc951fe7742c9
+  TYBluetooth: c6ed6134ecfca0cbe88aef6037b0efa8a01067b4
+  TYEncryptImage: 5b0548108fcc1ccd1cb0453bc7d16291daf70fa9
+  TYFoundationKit: 073f76f52b9abe88ac0617546d0a9ceebcc086c3
+  TYKVStorageLibrary: ba0ea216cde2dbd49bb21e111195d3ef59fe4e05
+  TYLanguageBundleRegister: db0016c916776fabcc0abc9a076ddcf353595ce5
+  TYLogMacro: b3238764e84035385b3c7604e78f25e664d3dfa0
+  TYModuleManager: 02d14a3d4703cbc90c275e48dd24bd5c24acb7c5
+  TYModuleServices: 9a8c769e784c329d029e044bfc598d5353d90d91
+  TYNavigationController: 92051d61ec18118bac1a8dc9ec76a39cbbabce1d
+  TYOEMConfig: 45f6edec3fb98a9c4d9719947dcac61973983f41
+  TYPanelBundleManager: 7a04de23554dd75821f5705175864d0937fc655e
+  TYPanelContext: fdeac81ae647e72a0ee44b820b49c0ab61fcc05b
+  TYPanelModule: b3c124877bd6925953dd01aae3d1d5e7f0c06a03
+  TYReactNative: ab95fb1a95690fb7e19d9b137c572791fd594094
+  TYSmartBusinessLibrary: 2291cb42922a591fb08579b9e5b730a14d06a749
+  TYSmartEventPredefined: 1f1681980a388713d74048347a757f9a2fa4930e
+  TYTarKit: 4b53d289d216c2a758052b10fb59e469728e8f21
+  TYTimerModule: 49dbce9fa33c744357f6d39cde5630f52da47797
+  TYUIKit: 10ea677e4c1549f96b600ffd729ea852916b149d
+  TZImagePickerController: 99f03b64145a8c92c55b9b1b931410967d9be4cb
+  UICKeyChainStore: 85db518bb1d294366d15ec9b92a416c4e670518f
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: fb7fb8258074f3028b1ce75937a284decd2fcbec
+
+COCOAPODS: 1.8.4
