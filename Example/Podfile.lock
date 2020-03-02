@@ -22,7 +22,6 @@ PODS:
   - MQTTClient/Min (0.15.2)
   - OpenSSL-Universal (1.0.2.17)
   - Reachability (3.2)
-  - SDWebImage/Core (4.4.8)
   - TheAmazingAudioEngine (1.5.8)
   - TPCircularBuffer (1.1)
   - TuyaRNApi/Basic (5.22.48):
@@ -97,8 +96,7 @@ PODS:
     - TYNavigationController
   - TYBlockKit (0.0.4)
   - TYBluetooth (3.14.0)
-  - TYEncryptImage (1.0.8):
-    - SDWebImage/Core (~> 4.4.3)
+  - TYEncryptImage (1.2.2):
     - TYFoundationKit
   - TYFoundationKit (1.1.0):
     - Reachability
@@ -227,7 +225,6 @@ SPEC REPOS:
     - MQTTClient
     - OpenSSL-Universal
     - Reachability
-    - SDWebImage
     - TheAmazingAudioEngine
     - TPCircularBuffer
     - TuyaSmartActivatorKit
@@ -257,7 +254,6 @@ SPEC CHECKSUMS:
   MQTTClient: 902c7bcac1501595f3d0b15178c7205b40331fb0
   OpenSSL-Universal: ff04c2e6befc3f1247ae039e60c93f76345b3b5a
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
-  SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
   TheAmazingAudioEngine: 24e382d9468283bb1b3f08df29b514aa522ef4fd
   TPCircularBuffer: 4960a919e667280f7f38963d771f45871b64fe62
   TuyaRNApi: ee7efb3849cd2fab8f4d07469170505ba0f9321d
@@ -277,7 +273,7 @@ SPEC CHECKSUMS:
   TYAnimationKit: b1ec458ea8fd6d6ea3e317bb8a175bf28abd4fc6
   TYBlockKit: d3bc97c2ce1d569d5445a6c3740fc951fe7742c9
   TYBluetooth: c6ed6134ecfca0cbe88aef6037b0efa8a01067b4
-  TYEncryptImage: 5b0548108fcc1ccd1cb0453bc7d16291daf70fa9
+  TYEncryptImage: 2f538734ebd7df85a7335c532545f1ca567ffe47
   TYFoundationKit: 073f76f52b9abe88ac0617546d0a9ceebcc086c3
   TYKVStorageLibrary: ba0ea216cde2dbd49bb21e111195d3ef59fe4e05
   TYLanguageBundleRegister: db0016c916776fabcc0abc9a076ddcf353595ce5
