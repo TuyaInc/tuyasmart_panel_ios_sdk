@@ -6,4 +6,6 @@ platform :ios, '9.0'
 
 target 'TuyaSmartPanelSDK_Example' do
    pod 'TuyaSmartPanelSDK'
+   # 若需要扫地机功能，请依赖扫地机相关插件
+   pod "TuyaRNApi/Sweeper"
 end

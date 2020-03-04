@@ -5,7 +5,9 @@
 涂鸦智能 iOS Panel SDK 是涂鸦智能设备控制面板的核心容器，在涂鸦智能 iOS Home SDK 的基础上，提供了设备控制面板的加载和控制的接口封装，加速应用开发过程。主要包括以下功能：
 
 - 面板加载（加载多种设备类型，支持：WIFI ，不支持 Zigbee、Mesh、BLE）
-- 设备控制（支持单设备的控制，不支持群组）
+  - 扫地机 (需单独依赖组件)
+  - IPC (需单独依赖 IPC Panel SDK)
+- 设备控制（支持设备和群组面板的控制，不支持群组管理）
 - 设备定时
 
 ## 快速集成
@@ -22,6 +24,8 @@ platform :ios, '9.0'
 
 target 'your_target_name' do
    pod "TuyaSmartPanelSDK"
+   # 若需要扫地机功能，请依赖扫地机相关插件
+   pod "TuyaRNApi/Sweeper"
 end
 ```
 
