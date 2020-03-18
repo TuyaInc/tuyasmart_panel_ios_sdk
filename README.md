@@ -1,20 +1,24 @@
-# 涂鸦智能 iOS Panel SDK
+# Tuya Smart iOS Panel SDK
 
-## 功能概述
+[中文版](README-zh.md) | [English](README.md)
 
-涂鸦智能 iOS Panel SDK 是涂鸦智能设备控制面板的核心容器，在涂鸦智能 iOS Home SDK 的基础上，提供了设备控制面板的加载和控制的接口封装，加速应用开发过程。主要包括以下功能：
+---
 
-- 面板加载（加载多种设备类型，支持：WIFI ，不支持 Zigbee、Mesh、BLE）
-  - 扫地机 (需单独依赖组件)
-  - IPC (需单独依赖 IPC Panel SDK)
-- 设备控制（支持设备和群组面板的控制，不支持群组管理）
-- 设备定时
+## Features Overview
 
-## 快速集成
+Tuya Smart iOS Panel SDK is the core container of Tuya Smart Device Control Panel, based on the Tuya Smart iOS Home SDK, it provides the interface package for loading and controlling the device control panel to speed up the application development process. It mainly includes the following functions:
 
-### 使用 CocoaPods 集成
+- Load Device Panel (Supported hardware device type: WIFI, Unsupported: Zigbee、Mesh、BLE)
+  - Sweeper Plugin (Requires additional dependencies)
+  - IPC Plugin (Requires additional dependencies [IPC Panel SDK](https://github.com/TuyaInc/tuyasmart_camera_panel_ios_sdk))
+- Device Panel Control (Supported Device and Group Control, Unsupported Group Manager)
+- Device Alarm
 
-在 `Podfile` 文件中添加以下内容：
+## Fast Integration
+
+### Using CocoaPods
+
+Add the following content in file `Podfile`:
 
 ```ruby
 source "https://github.com/TuyaInc/TYPublicSpecs.git"
@@ -24,44 +28,37 @@ platform :ios, '9.0'
 
 target 'your_target_name' do
    pod "TuyaSmartPanelSDK"
-   # 若需要扫地机功能，请依赖扫地机相关插件
+   # If you need the sweeper, please rely on the relevant plug-in of the sweeper
    pod "TuyaRNApi/Sweeper"
 end
 ```
 
-然后在项目根目录下执行 `pod update` 命令，集成第三方库。
+Execute command `pod update` in the project's root directory to begin integration.
 
-CocoaPods 的使用请参考：[CocoaPods Guides](https://guides.cocoapods.org/) 
+For the instructions of CocoaPods, please refer to: [CocoaPods Guides](https://guides.cocoapods.org/) 
 
-## 集成 SDK
+## Integrated SDK
 
-### 头文件导入
+### Import Header
 
-Objective-C 项目在需要使用的地方添加
+Add the following header in Use for Objective-C project:
 
 ```objective-c
 #import <TuyaSmartPanelSDK/TuyaSmartPanelSDK.h>
 ```
 
-Swift 请现在 `xxx_Bridging-Header.h` 桥接文件中添加以下内容
+Add the following Bridge Header in Use for Swift project: 
 
 ```swift
 #import <TuyaSmartPanelSDK/TuyaSmartPanelSDK.h>
 ```
 
-然后在项目在需要使用的地方添加
-
-```swift
-import TuyaSmartPanelSDK
-```
 
 
+## Doc
 
+Refer to details：[Tuya Smart Panel Doc - iOS SDK](https://tuyainc.github.io/tuyasmart_panel_ios_sdk_doc/en/)
 
-## 开发文档
-
-更多请参考：[涂鸦智能 iOS Panel SDK](https://tuyainc.github.io/tuyasmart_panel_ios_sdk_doc/)
-
-## 版本更新记录
+## ChangeLog
 
 [CHANGELOG.md](./CHANGELOG.md) 
