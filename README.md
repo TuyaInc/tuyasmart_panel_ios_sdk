@@ -37,21 +37,34 @@ Execute command `pod update` in the project's root directory to begin integratio
 
 For the instructions of CocoaPods, please refer to: [CocoaPods Guides](https://guides.cocoapods.org/) 
 
-## Integrated SDK
+### Initialize SDK
 
-### Import Header
+1. Open project setting, `Target => General`, edit `Bundle Identifier` to the value from Tuya develop center.
 
-Add the following header in Use for Objective-C project:
+2. Import security image to the project and rename as `t_s.bmp`, then add it into `Project Setting => Target => Build Phases => Copy Bundle Resources`.
 
-```objective-c
-#import <TuyaSmartPanelSDK/TuyaSmartPanelSDK.h>
-```
+3. Add the following to the project file `PrefixHeader.pch`, Swift project add the following to the `xxx_Bridging-Header.h` file:
 
-Add the following Bridge Header in Use for Swift project: 
+   ```objc
+   #import <TuyaSmartBaseKit/TuyaSmartBaseKit.h>
+   #import <TuyaSmartPanelSDK/TuyaSmartPanelSDK.h>
+   ```
+   
+4. Open file `AppDelegate.m`，and use the `App Key` and `App Secret` obtained from the development platform in the `[AppDelegate application:didFinishLaunchingWithOptions:]`method to initialize SDK:
 
-```swift
-#import <TuyaSmartPanelSDK/TuyaSmartPanelSDK.h>
-```
+   ObjC
+
+   ```objc
+   [[TuyaSmartSDK sharedInstance] startWithAppKey:<#your_app_key#> secretKey:<#your_secret_key#>];
+   ```
+
+   Swift
+
+   ```swift
+   TuyaSmartSDK.sharedInstance()?.start(withAppKey: <#your_app_key#>, secretKey: <#your_secret_key#>)
+   ```
+
+Now all the prepare work has been completed. You can use the sdk to develop your application now.
 
 
 
