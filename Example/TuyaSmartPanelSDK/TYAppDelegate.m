@@ -49,6 +49,7 @@
 - (void)showLoginVc {
     TYPLoginViewController *loginVc = [[TYPLoginViewController alloc] initWithNibName:nil bundle:nil];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:loginVc];
+    nav.modalPresentationStyle = UIModalPresentationFullScreen;
     [_rootVc presentViewController:nav animated:YES completion:nil];
 }
 

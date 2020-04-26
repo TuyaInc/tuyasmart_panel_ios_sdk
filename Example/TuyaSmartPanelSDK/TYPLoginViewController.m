@@ -32,6 +32,7 @@ NSString *const TYPLoginDidSusscess = @"TYPLoginDidSusscess";
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:nil
                                                                    message:tips
                                                             preferredStyle:UIAlertControllerStyleAlert];
+    [alert addAction:[UIAlertAction actionWithTitle:@"OK" style:(UIAlertActionStyleCancel) handler:NULL]];
     [self.navigationController presentViewController:alert animated:YES completion:nil];
 }
 
