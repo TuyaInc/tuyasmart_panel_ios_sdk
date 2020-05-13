@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.authors = { 'TuyaInc' => 'https://www.tuya.com' }
   s.homepage = 'https://github.com/TuyaInc'
   s.description = "TODO: Add long description of the pod here."
-  s.source = { :http => "https://github.com/TuyaInc/tuyasmart_panel_ios_sdk.git", :tag => "#{s.version}" }
+  s.source = { :git => "https://github.com/TuyaInc/tuyasmart_panel_ios_sdk.git", :tag => "#{s.version}" }
   s.static_framework = true
   s.ios.deployment_target = '9.0'
   s.ios.vendored_framework = 'ios/*.framework'
