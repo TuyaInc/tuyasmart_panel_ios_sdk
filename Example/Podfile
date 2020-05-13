@@ -10,4 +10,13 @@ target 'TuyaSmartPanelSDK_Example' do
    pod 'TuyaSmartPanelSDK'
    # 若需要扫地机功能，请依赖扫地机相关插件
    # pod "TuyaRNApi/Sweeper"
+
+   # 若需要其他版本的 React，可在此添加对应版本的依赖
+   # pod 'React'
+   # pod 'react-native-maps'
+   # pod 'rn-fetch-blob'
+   # pod 'RNSVG'
+   # pod 'react-native-image-picker'
+   # pod 'react-native-video'
+   # pod 'RNViewShot'
 end

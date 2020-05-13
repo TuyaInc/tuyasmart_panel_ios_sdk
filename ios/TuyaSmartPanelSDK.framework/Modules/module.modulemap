@@ -1,0 +1,6 @@
+framework module TuyaSmartPanelSDK {
+  umbrella header "TuyaSmartPanelSDK.h"
+
+  export *
+  module * { export * }
+}
