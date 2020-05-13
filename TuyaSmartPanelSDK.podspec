@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.ios.vendored_framework = 'ios/*.framework'
   
-  s.dependency 'TYPanelModule'
+  s.dependency 'TYPanelModule', '2.1.2'
   s.dependency 'TYTimerModule'
   s.dependency 'TYLanguageBundleRegister'
   s.dependency 'TuyaRNApi/Basic'
