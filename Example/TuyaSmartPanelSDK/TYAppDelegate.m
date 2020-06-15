@@ -7,7 +7,6 @@
 //
 
 #import "TYAppDelegate.h"
-#import "TYUserDefine.h"
 #import "TYPDeviceListViewController.h"
 #import "TYPLoginViewController.h"
 #import <TuyaSmartBaseKit/TuyaSmartBaseKit.h>
@@ -24,7 +23,7 @@
     [[TuyaSmartSDK sharedInstance] setDebugMode:YES];
 #endif
     
-    [[TuyaSmartSDK sharedInstance] startWithAppKey:SDK_APPKEY secretKey:SDK_APPSECRET];
+    [[TuyaSmartSDK sharedInstance] startWithAppKey:@"<#SDK_APPKEY#>" secretKey:@"<#SDK_APPSECRET#>"];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     

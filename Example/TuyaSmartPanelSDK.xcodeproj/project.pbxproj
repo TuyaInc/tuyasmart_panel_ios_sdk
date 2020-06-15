@@ -71,7 +71,6 @@
 		E57A68A0240A66CD00806120 /* TYPLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPLoginViewController.m; sourceTree = "<group>"; };
 		E57A68A1240A66CD00806120 /* TYPLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYPLoginViewController.xib; sourceTree = "<group>"; };
 		E57A68A2240A66CD00806120 /* TYPLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPLoginViewController.h; sourceTree = "<group>"; };
-		E57A68A3240A66CD00806120 /* TYUserDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYUserDefine.h; sourceTree = "<group>"; };
 		E57A68A4240A66CD00806120 /* TYPSmartHomeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPSmartHomeManager.h; sourceTree = "<group>"; };
 		E57A68A5240A66CE00806120 /* TYPSmartHomeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPSmartHomeManager.m; sourceTree = "<group>"; };
 		E5BCEA26240CA16B00252EA5 /* t_s.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = t_s.bmp; sourceTree = "<group>"; };
@@ -158,7 +157,6 @@
 				E57A68A1240A66CD00806120 /* TYPLoginViewController.xib */,
 				E57A68A4240A66CD00806120 /* TYPSmartHomeManager.h */,
 				E57A68A5240A66CE00806120 /* TYPSmartHomeManager.m */,
-				E57A68A3240A66CD00806120 /* TYUserDefine.h */,
 				E5BCEA26240CA16B00252EA5 /* t_s.bmp */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
@@ -343,7 +341,6 @@
 				"${PODS_ROOT}/TYLanguageBundleRegister/Assets/TYLanguageBundleRegister.bundle",
 				"${PODS_ROOT}/TYNavigationController/TYNavigationController/Assets/TYNavigationRes.bundle",
 				"${PODS_ROOT}/TYOEMConfig/Assets/customColor.plist",
-				"${PODS_ROOT}/TYPanelContext/Assets/TYPanelContext.bundle",
 				"${PODS_ROOT}/TYPanelModule/Assets/ios.base.jsbundle",
 				"${PODS_ROOT}/TYPanelModule/Assets/panel_black_more@2x.png",
 				"${PODS_ROOT}/TYPanelModule/Assets/panel_black_more@3x.png",
@@ -403,7 +400,6 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TYLanguageBundleRegister.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TYNavigationRes.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/customColor.plist",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TYPanelContext.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ios.base.jsbundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/panel_black_more@2x.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/panel_black_more@3x.png",
