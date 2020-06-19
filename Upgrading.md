@@ -1,6 +1,6 @@
 # Upgrading
 
-**Panel SDK has been renamed as Device Control BizBundle, and the code warehouse has been migrated to Github. [TuyaSmartPanelBizBundle](https://tuyainc.github.io/tuyasmart_bizbundle_ios_doc/zh-hans/pages/panel/)**
+**The Panel SDK has been renamed as a device control biz bundle. The new version of the device control biz bundle provides a brand-new access method and integrates multiple biz bundle quickly through componentization. [TuyaSmartPanelBizBundle](https://tuyainc.github.io/tuyasmart_bizbundle_ios_doc/zh-hans/pages/panel/)**
 
 ## Integrated Migration
 

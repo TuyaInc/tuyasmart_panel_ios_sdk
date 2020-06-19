@@ -1,6 +1,6 @@
 # 迁移指南
 
-**Panel SDK 已改名为设备控制业务包，代码仓库已迁移至 Github，详情查看 [涂鸦智能设备控制业务包](https://tuyainc.github.io/tuyasmart_bizbundle_ios_doc/zh-hans/pages/panel/)**
+**Panel SDK 已改名为设备控制业务包，新版业务包提供全新的接入方式，通过组件化快速集成多个业务包。接入文档查看 [涂鸦智能设备控制业务包](https://tuyainc.github.io/tuyasmart_bizbundle_ios_doc/zh-hans/pages/panel/)**
 
 ## 集成方式迁移
 
