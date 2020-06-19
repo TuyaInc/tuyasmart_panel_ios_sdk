@@ -1,5 +1,7 @@
 # 涂鸦智能 iOS 设备控制业务包
 
+## [迁移指南](Upgrading-zh.md)
+
 [中文版](README-zh.md) | [English](README.md)
 
 ---

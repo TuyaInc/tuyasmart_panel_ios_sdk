@@ -1,5 +1,7 @@
 # Tuya Smart iOS Device Control Biz Bundle
 
+## [Upgrading](Upgrading.md)
+
 [中文版](README-zh.md) | [English](README.md)
 
 ---
