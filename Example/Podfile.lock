@@ -1,4 +1,8 @@
 PODS:
+  - ATGestureLockView (0.1.2):
+    - TYBlockKit
+    - TYFoundationKit
+    - TYUIKit
   - CocoaAsyncSocket (7.6.4)
   - DACircularProgress (2.3.1)
   - EZAudio (1.1.5):
@@ -11,9 +15,9 @@ PODS:
   - Masonry (1.1.0)
   - MBProgressHUD (0.9.2)
   - MJRefresh (3.4.3)
-  - MMKV (1.1.2):
-    - MMKVCore (~> 1.1.2)
-  - MMKVCore (1.1.2)
+  - MMKV (1.2.1):
+    - MMKVCore (~> 1.2.1)
+  - MMKVCore (1.2.1)
   - MQTTClient (0.15.2):
     - MQTTClient/Core (= 0.15.2)
   - MQTTClient/Core (0.15.2):
@@ -22,90 +26,191 @@ PODS:
   - MQTTClient/Manager (0.15.2):
     - MQTTClient/Min
   - MQTTClient/Min (0.15.2)
-  - OpenSSL-Universal (1.0.2.17)
   - Reachability (3.2)
-  - React (0.51.2):
-    - yoga (= 0.51.0.React)
-  - react-native-image-picker (0.26.7.1):
+  - React (0.51.0.bizbundle.1):
+    - yoga (= 0.51.0.React.1)
+  - react-native-image-picker (0.26.7.3):
     - React
-  - react-native-maps (0.14.0):
+  - react-native-maps (0.14.0.1):
     - React
-  - react-native-video (3.2.1.1):
+  - react-native-video (3.2.1.3):
     - React
-  - rn-fetch-blob (0.10.15):
+  - rn-fetch-blob (0.10.15.1):
     - React
-  - RNSVG (5.5.1.1):
+  - RNSVG (5.5.1.2):
     - React
-  - RNViewShot (2.3.0.1):
+  - RNViewShot (2.3.0.3):
     - React
-  - SDWebImage/Core (5.8.0)
+  - SDWebImage (5.8.4):
+    - SDWebImage/Core (= 5.8.4)
+  - SDWebImage/Core (5.8.4)
   - TheAmazingAudioEngine (1.5.9)
   - TPCircularBuffer (1.1)
-  - TuyaRNApi/Basic (5.22.49):
+  - TuyaRNApi/Basic (5.26.13.bizbundle.4):
     - TuyaRNApi/Core
-    - TuyaRNApiBasic (= 5.22.49)
-  - TuyaRNApi/Core (5.22.49)
-  - TuyaRNApiBasic (5.22.49):
-    - EZAudio
-    - React
-    - TheAmazingAudioEngine
-    - TuyaSmartActivatorKit
-    - TuyaSmartBLEKit
-    - TuyaSmartBLEMeshKit
+    - TYRCTAESImageViewManager (= 1.0.10)
+    - TYRCTAPMEventManager (= 1.0.7)
+    - TYRCTAPMTrackManager (= 1.0.9)
+    - TYRCTBLEManager (= 0.2.3)
+    - TYRCTBluetoothUtilManager (= 1.1.1)
+    - TYRCTConicGradientViewManager (= 1.0.2)
+    - TYRCTCountrySelectManager (= 1.0.6)
+    - TYRCTCurveChartViewManager (= 1.0.7)
+    - TYRCTEncryptImageDownloadManager (= 1.0.7)
+    - TYRCTGestureLockViewManager (= 1.0.10)
+    - TYRCTHomeDevManager (= 1.1.5)
+    - TYRCTHomeManager (= 1.2.3)
+    - TYRCTHueCircleViewManager (= 1.0.5)
+    - TYRCTImageEncryptUploadManager (= 1.0.6)
+    - TYRCTLineChartViewManager (= 1.0.3)
+    - TYRCTMeshPanelManager (= 1.1.6)
+    - TYRCTMqttManager (= 1.0.8)
+    - TYRCTMultiImagePickerManager (= 1.0.2)
+    - TYRCTMultiLineChartViewManager (= 1.0.6)
+    - TYRCTMusicManager (= 1.1.13)
+    - TYRCTNavManager (= 1.0.10)
+    - TYRCTNewTopBarManager (= 1.0.6)
+    - TYRCTPanelManager (= 1.1.17)
+    - TYRCTPickerManager (= 1.0.5)
+    - TYRCTPublicManager (= 1.0.23)
+    - TYRCTSliderManager (= 1.0.6)
+    - TYRCTStandardGroupManager (= 1.1.6)
+    - TYRCTSwitchManager (= 1.0.7)
+    - TYRCTTopBarManager (= 1.0.12)
+    - TYRCTZigbeeEventManager (= 1.0.9)
+  - TuyaRNApi/Core (5.26.13.bizbundle.4)
+  - TuyaSmartActivatorKit (3.17.6):
     - TuyaSmartDeviceKit
-    - TYBluetooth
-    - TYBluetoothUtils
-    - TYEncryptImage
-    - TYKVStorageLibrary
-    - TYNavigationController
-    - TYOEMConfig
-    - TYPanelContext
-    - TYSmartBusinessLibrary
-    - TYUIKit
-    - TZImagePickerController
-  - TuyaSmartActivatorKit (3.17.2):
-    - TuyaSmartDeviceKit
-  - TuyaSmartBaseKit (3.17.1):
+  - TuyaSmartBaseKit (3.17.6):
     - TuyaSmartUtil
     - YYModel
-  - TuyaSmartBLEKit (3.17.0):
-    - TuyaSmartActivatorKit
+  - TuyaSmartBizCore (3.17.6.3):
     - TuyaSmartBaseKit
-    - TuyaSmartDeviceKit
-    - TYBluetooth
-  - TuyaSmartBLEMeshKit (3.17.0):
-    - OpenSSL-Universal (= 1.0.2.17)
-    - TuyaSmartActivatorKit
+    - TYFoundationKit
+    - TYModuleManager
+    - TYModuleServices
+    - TYOEMConfig
+    - TYSmartBusinessLibrary
+  - TuyaSmartDemo/Base (0.8.2):
+    - MBProgressHUD (~> 0.9.2)
+    - Reachability
     - TuyaSmartBaseKit
-    - TuyaSmartBLEKit
+    - YYModel
+  - TuyaSmartDemo/DeviceList (0.8.2):
+    - SDWebImage
+    - TuyaSmartDemo/Base
     - TuyaSmartDeviceKit
-    - TYBluetooth
-  - TuyaSmartDeviceKit (3.17.4):
+  - TuyaSmartDemo/Login (0.8.2):
+    - TuyaSmartBaseKit
+    - TuyaSmartDemo/Base
+  - TuyaSmartDemo/SmartScene (0.8.2):
+    - SDWebImage
+    - TuyaSmartDemo/Base
+    - TuyaSmartSceneKit
+  - TuyaSmartDemo/UserInfo (0.8.2):
+    - TuyaSmartDemo/Base
+  - TuyaSmartDeviceKit (3.17.11):
     - TuyaSmartBaseKit
     - TuyaSmartMQTTChannelKit
     - TuyaSmartSocketChannelKit
   - TuyaSmartMQTTChannelKit (3.17.3):
     - MQTTClient (= 0.15.2)
     - TuyaSmartBaseKit
-  - TuyaSmartPanelSDK (0.4.1):
-    - TuyaRNApi/Basic
-    - TuyaSmartBLEKit
-    - TuyaSmartBLEMeshKit
+  - TuyaSmartPanelBizBundle (3.17.0.2.1):
+    - ATGestureLockView (= 0.1.2)
+    - DACircularProgress
+    - EZAudio
+    - EZAudio/Core
+    - EZAudio/Full
+    - lottie-ios
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MMKV
+    - Reachability
+    - React (= 0.51.0.bizbundle.1)
+    - react-native-image-picker (= 0.26.7.3)
+    - react-native-maps (= 0.14.0.1)
+    - react-native-video (= 3.2.1.3)
+    - rn-fetch-blob (= 0.10.15.1)
+    - RNSVG (= 5.5.1.2)
+    - RNViewShot (= 2.3.0.3)
+    - TheAmazingAudioEngine
+    - TPCircularBuffer
+    - TuyaRNApi/Basic (= 5.26.13.bizbundle.4)
+    - TuyaRNApi/Core (= 5.26.13.bizbundle.4)
+    - TuyaSmartActivatorKit
+    - TuyaSmartBaseKit
+    - TuyaSmartBizCore
     - TuyaSmartDeviceKit
     - TuyaSmartSceneKit
-    - TYLanguageBundleRegister
-    - TYPanelModule (= 2.1.3)
-    - TYTimerModule
-  - TuyaSmartSceneKit (3.17.0):
+    - TuyaSmartTimerKit
+    - TuyaSmartUtil
+    - TYAlertPickerComponent (= 0.3.0)
+    - TYAnimationKit (= 1.1.2)
+    - TYBlockKit (= 0.0.4)
+    - TYBluetoothInterface (= 0.0.8)
+    - TYEncryptImage (= 1.2.3.bizBundle.3.17.6)
+    - TYFoundationKit (= 1.10.3)
+    - TYKVStorageLibrary (= 0.5.0)
+    - TYLogMacro (= 0.0.2)
+    - TYModuleManager (= 2.10.0.bizbundle.3.17.6.1)
+    - TYModuleServices (= 2.8.12.bizbundle.3.17.0.12.1)
+    - TYNavigationController (= 1.10.1)
+    - TYOEMConfig (= 1.13.0.bizbundle.3.17.6.1)
+    - TYPanelBundleManager (= 1.0.4)
+    - TYPanelContext (= 0.2.6.bizbundle.3.17.0)
+    - TYPanelModule (= 2.2.2.bizbundle.3.17.0)
+    - TYRCTAESImageViewManager (= 1.0.10)
+    - TYRCTAPMEventManager (= 1.0.7)
+    - TYRCTAPMTrackManager (= 1.0.9)
+    - TYRCTBLEManager (= 0.2.3)
+    - TYRCTBluetoothUtilManager (= 1.1.1)
+    - TYRCTConicGradientViewManager (= 1.0.2)
+    - TYRCTCountrySelectManager (= 1.0.6)
+    - TYRCTCurveChartViewManager (= 1.0.7)
+    - TYRCTEncryptImageDownloadManager (= 1.0.7)
+    - TYRCTGestureLockViewManager (= 1.0.10)
+    - TYRCTHomeDevManager (= 1.1.5)
+    - TYRCTHomeManager (= 1.2.3)
+    - TYRCTHueCircleViewManager (= 1.0.5)
+    - TYRCTImageEncryptUploadManager (= 1.0.6)
+    - TYRCTLineChartViewManager (= 1.0.3)
+    - TYRCTMeshPanelManager (= 1.1.6)
+    - TYRCTMqttManager (= 1.0.8)
+    - TYRCTMultiImagePickerManager (= 1.0.2)
+    - TYRCTMultiLineChartViewManager (= 1.0.6)
+    - TYRCTMusicManager (= 1.1.13)
+    - TYRCTNavManager (= 1.0.10)
+    - TYRCTNewTopBarManager (= 1.0.6)
+    - TYRCTPanelManager (= 1.1.17)
+    - TYRCTPickerManager (= 1.0.5)
+    - TYRCTPublicManager (= 1.0.23)
+    - TYRCTSliderManager (= 1.0.6)
+    - TYRCTStandardGroupManager (= 1.1.6)
+    - TYRCTSwitchManager (= 1.0.7)
+    - TYRCTTopBarManager (= 1.0.12)
+    - TYRCTZigbeeEventManager (= 1.0.9)
+    - TYReactNative (= 0.2.9.bizbundle.3.17.0)
+    - TYSmartBusinessLibrary (= 3.17.5.bizbundle.3.17.0.3)
+    - TYSmartEventPredefined (= 1.2.34)
+    - TYTarKit (= 0.1.5)
+    - TYTimerModule (= 2.2.0)
+    - TYUIKit (= 1.10.2)
+    - TZImagePickerController
+    - UICKeyChainStore
+    - yoga (= 0.51.0.React.1)
+    - YYModel
+  - TuyaSmartSceneKit (3.17.10):
     - TuyaSmartBaseKit
     - TuyaSmartDeviceKit
-  - TuyaSmartSocketChannelKit (3.17.0):
+  - TuyaSmartSocketChannelKit (3.17.6):
     - CocoaAsyncSocket
     - TuyaSmartBaseKit
   - TuyaSmartTimerKit (3.13.0):
     - TuyaSmartBaseKit
     - TuyaSmartDeviceKit
-  - TuyaSmartUtil (3.15.0)
+  - TuyaSmartUtil (3.17.6)
   - TYAlertPickerComponent (0.3.0):
     - TYAnimationKit
     - TYSmartBusinessLibrary
@@ -113,30 +218,28 @@ PODS:
     - TYModuleManager
     - TYNavigationController
   - TYBlockKit (0.0.4)
-  - TYBluetooth (3.17.0)
-  - TYBluetoothUtils (1.0.0):
-    - TYBluetooth
-  - TYEncryptImage (1.3.2):
+  - TYBluetoothInterface (0.0.8):
+    - TuyaSmartBaseKit
+    - TuyaSmartDeviceKit
+    - TuyaSmartUtil
+  - TYEncryptImage (1.2.3.bizBundle.3.17.6):
     - TYFoundationKit
   - TYFoundationKit (1.10.3):
     - Reachability
-  - TYKVStorageLibrary (0.3.3):
+  - TYKVStorageLibrary (0.5.0):
     - MMKV
     - TuyaSmartBaseKit
     - UICKeyChainStore
-  - TYLanguageBundleRegister (0.0.4):
-    - TYFoundationKit
   - TYLogMacro (0.0.2)
-  - TYModuleManager (2.1.0)
-  - TYModuleServices (0.5.1)
-  - TYNavigationController (1.2.1):
+  - TYModuleManager (2.10.0.bizbundle.3.17.6.1)
+  - TYModuleServices (2.8.12.bizbundle.3.17.0.12.1)
+  - TYNavigationController (1.10.1):
     - TYUIKit
-  - TYOEMConfig (1.9.1):
-    - TuyaSmartBaseKit
+  - TYOEMConfig (1.13.0.bizbundle.3.17.6.1):
     - TYFoundationKit
     - TYUIKit
     - YYModel
-  - TYPanelBundleManager (1.0.1):
+  - TYPanelBundleManager (1.0.4):
     - DACircularProgress
     - TuyaSmartBaseKit
     - TuyaSmartDeviceKit
@@ -144,33 +247,168 @@ PODS:
     - TYFoundationKit
     - TYKVStorageLibrary
     - TYLogMacro
+    - TYOEMConfig
     - TYSmartEventPredefined
     - TYTarKit
     - TYUIKit
-  - TYPanelContext (0.3.0):
+  - TYPanelContext (0.2.6.bizbundle.3.17.0):
     - Reachability
     - TuyaSmartDeviceKit
     - TYFoundationKit
     - TYModuleManager
     - TYModuleServices
     - TYReactNative
-  - TYPanelModule (2.1.3):
+  - TYPanelModule (2.2.2.bizbundle.3.17.0):
     - DACircularProgress
-    - TuyaRNApi/Core (= 5.22.49)
-    - TuyaSmartBLEKit
-    - TuyaSmartBLEMeshKit
+    - TuyaRNApi/Core
     - TuyaSmartDeviceKit
     - TuyaSmartSceneKit
     - TYAlertPickerComponent
+    - TYBluetoothInterface
+    - TYLogMacro
     - TYModuleManager
     - TYModuleServices
     - TYPanelBundleManager
     - TYPanelContext
-    - TYReactNative (= 0.3.0)
+    - TYReactNative
     - TYSmartBusinessLibrary
     - TYSmartEventPredefined
     - TYTarKit
-  - TYReactNative (0.3.0):
+  - TYRCTAESImageViewManager (1.0.10):
+    - TYEncryptImage
+    - TYFoundationKit
+    - TYPanelContext
+    - TYReactNative
+  - TYRCTAPMEventManager (1.0.7):
+    - TYPanelContext
+    - TYReactNative
+  - TYRCTAPMTrackManager (1.0.9):
+    - TYPanelContext
+    - TYReactNative
+  - TYRCTBLEManager (0.2.3):
+    - Reachability
+    - TYBluetoothInterface
+    - TYPanelContext
+    - TYReactNative
+  - TYRCTBluetoothUtilManager (1.1.1):
+    - TYBluetoothInterface
+    - TYPanelContext
+    - TYReactNative
+  - TYRCTConicGradientViewManager (1.0.2):
+    - TYPanelContext
+    - TYReactNative
+  - TYRCTCountrySelectManager (1.0.6):
+    - TYPanelContext
+    - TYReactNative
+    - TYSmartBusinessLibrary
+  - TYRCTCurveChartViewManager (1.0.7):
+    - TYNavigationController
+    - TYPanelContext
+    - TYReactNative
+    - TYUIKit
+  - TYRCTEncryptImageDownloadManager (1.0.7):
+    - TYEncryptImage
+    - TYPanelContext
+    - TYReactNative
+    - TYSmartBusinessLibrary
+  - TYRCTGestureLockViewManager (1.0.10):
+    - ATGestureLockView
+    - TYPanelContext
+    - TYReactNative
+  - TYRCTHomeDevManager (1.1.5):
+    - TuyaSmartDeviceKit
+    - TYPanelContext
+    - TYReactNative
+  - TYRCTHomeManager (1.2.3):
+    - TYPanelContext
+    - TYReactNative
+  - TYRCTHueCircleViewManager (1.0.5):
+    - TYNavigationController
+    - TYPanelContext
+    - TYReactNative
+    - TYUIKit
+  - TYRCTImageEncryptUploadManager (1.0.6):
+    - TuyaSmartBaseKit
+    - TYEncryptImage
+    - TYPanelContext
+    - TYReactNative
+  - TYRCTLineChartViewManager (1.0.3):
+    - TYPanelContext
+    - TYReactNative
+    - TYUIKit
+  - TYRCTMeshPanelManager (1.1.6):
+    - TYFoundationKit
+    - TYModuleServices
+    - TYPanelContext
+    - TYReactNative
+  - TYRCTMqttManager (1.0.8):
+    - TuyaSmartDeviceKit
+    - TYPanelContext
+    - TYReactNative
+  - TYRCTMultiImagePickerManager (1.0.2):
+    - TYFoundationKit
+    - TYPanelContext
+    - TYReactNative
+    - TZImagePickerController
+  - TYRCTMultiLineChartViewManager (1.0.6):
+    - TYPanelContext
+    - TYReactNative
+    - TYUIKit
+  - TYRCTMusicManager (1.1.13):
+    - EZAudio
+    - TYPanelContext
+    - TYReactNative
+  - TYRCTNavManager (1.0.10):
+    - TYPanelBundleManager
+    - TYPanelContext
+    - TYReactNative
+  - TYRCTNewTopBarManager (1.0.6):
+    - TYPanelContext
+    - TYReactNative
+    - TYUIKit
+  - TYRCTPanelManager (1.1.17):
+    - TuyaSmartActivatorKit
+    - TuyaSmartDeviceKit
+    - TYBluetoothInterface
+    - TYKVStorageLibrary
+    - TYNavigationController
+    - TYOEMConfig
+    - TYPanelContext
+    - TYReactNative
+    - TYSmartBusinessLibrary
+    - TYTimerModule
+  - TYRCTPickerManager (1.0.5):
+    - TYPanelContext
+    - TYReactNative
+  - TYRCTPublicManager (1.0.23):
+    - TheAmazingAudioEngine
+    - TuyaSmartDeviceKit
+    - TYBlockKit
+    - TYPanelContext
+    - TYReactNative
+    - TYSmartBusinessLibrary
+  - TYRCTSliderManager (1.0.6):
+    - TYPanelContext
+    - TYReactNative
+    - TYSmartBusinessLibrary
+    - TYUIKit
+  - TYRCTStandardGroupManager (1.1.6):
+    - TuyaSmartDeviceKit
+    - TYPanelContext
+    - TYReactNative
+  - TYRCTSwitchManager (1.0.7):
+    - TYPanelContext
+    - TYReactNative
+  - TYRCTTopBarManager (1.0.12):
+    - TYNavigationController
+    - TYPanelContext
+    - TYReactNative
+    - TYSmartBusinessLibrary
+    - TYUIKit
+  - TYRCTZigbeeEventManager (1.0.9):
+    - TYPanelContext
+    - TYReactNative
+  - TYReactNative (0.2.9.bizbundle.3.17.0):
     - React
     - react-native-image-picker
     - react-native-maps
@@ -178,10 +416,10 @@ PODS:
     - rn-fetch-blob
     - RNSVG
     - RNViewShot
-  - TYSmartBusinessLibrary (3.16.8):
-    - lottie-ios (~> 2.5.0)
+  - TYSmartBusinessLibrary (3.17.5.bizbundle.3.17.0.3):
+    - lottie-ios (~> 2.0)
     - Masonry
-    - MBProgressHUD (~> 0.9.2)
+    - MBProgressHUD (~> 0.9)
     - MJRefresh
     - Reachability
     - TuyaSmartBaseKit
@@ -192,33 +430,36 @@ PODS:
     - TYNavigationController
     - TYOEMConfig
     - TYUIKit
-  - TYSmartEventPredefined (1.2.32)
+  - TYSmartEventPredefined (1.2.34)
   - TYTarKit (0.1.5)
-  - TYTimerModule (2.1.0):
-    - TuyaSmartBLEKit
-    - TuyaSmartBLEMeshKit
+  - TYTimerModule (2.2.0):
     - TuyaSmartDeviceKit
     - TuyaSmartTimerKit
     - TYAlertPickerComponent
+    - TYBluetoothInterface
     - TYFoundationKit
     - TYModuleManager
     - TYModuleServices
     - TYSmartBusinessLibrary
     - TYSmartEventPredefined
     - TYUIKit
-  - TYUIKit (1.1.1):
+  - TYUIKit (1.10.2):
     - Masonry
-  - TZImagePickerController (3.3.2)
+  - TZImagePickerController (3.4.1)
   - UICKeyChainStore (2.2.0)
-  - yoga (0.51.0.React)
+  - yoga (0.51.0.React.1)
   - YYModel (1.0.4)
 
 DEPENDENCIES:
-  - SDWebImage/Core
-  - TuyaSmartPanelSDK
+  - TuyaSmartDemo/DeviceList
+  - TuyaSmartDemo/Login
+  - TuyaSmartDemo/SmartScene
+  - TuyaSmartDemo/UserInfo
+  - TuyaSmartPanelBizBundle
 
 SPEC REPOS:
-  https://github.com/TuyaInc/TYPublicSpecs.git:
+  https://github.com/TuyaInc/TuyaPublicSpecs.git:
+    - ATGestureLockView
     - React
     - react-native-image-picker
     - react-native-maps
@@ -228,16 +469,15 @@ SPEC REPOS:
     - RNViewShot
     - TheAmazingAudioEngine
     - TuyaRNApi
-    - TuyaRNApiBasic
-    - TuyaSmartPanelSDK
+    - TuyaSmartBizCore
+    - TuyaSmartPanelBizBundle
     - TYAlertPickerComponent
     - TYAnimationKit
     - TYBlockKit
-    - TYBluetoothUtils
+    - TYBluetoothInterface
     - TYEncryptImage
     - TYFoundationKit
     - TYKVStorageLibrary
-    - TYLanguageBundleRegister
     - TYLogMacro
     - TYModuleManager
     - TYModuleServices
@@ -246,6 +486,36 @@ SPEC REPOS:
     - TYPanelBundleManager
     - TYPanelContext
     - TYPanelModule
+    - TYRCTAESImageViewManager
+    - TYRCTAPMEventManager
+    - TYRCTAPMTrackManager
+    - TYRCTBLEManager
+    - TYRCTBluetoothUtilManager
+    - TYRCTConicGradientViewManager
+    - TYRCTCountrySelectManager
+    - TYRCTCurveChartViewManager
+    - TYRCTEncryptImageDownloadManager
+    - TYRCTGestureLockViewManager
+    - TYRCTHomeDevManager
+    - TYRCTHomeManager
+    - TYRCTHueCircleViewManager
+    - TYRCTImageEncryptUploadManager
+    - TYRCTLineChartViewManager
+    - TYRCTMeshPanelManager
+    - TYRCTMqttManager
+    - TYRCTMultiImagePickerManager
+    - TYRCTMultiLineChartViewManager
+    - TYRCTMusicManager
+    - TYRCTNavManager
+    - TYRCTNewTopBarManager
+    - TYRCTPanelManager
+    - TYRCTPickerManager
+    - TYRCTPublicManager
+    - TYRCTSliderManager
+    - TYRCTStandardGroupManager
+    - TYRCTSwitchManager
+    - TYRCTTopBarManager
+    - TYRCTZigbeeEventManager
     - TYReactNative
     - TYSmartBusinessLibrary
     - TYSmartEventPredefined
@@ -264,26 +534,24 @@ SPEC REPOS:
     - MMKV
     - MMKVCore
     - MQTTClient
-    - OpenSSL-Universal
     - Reachability
     - SDWebImage
     - TPCircularBuffer
     - TuyaSmartActivatorKit
     - TuyaSmartBaseKit
-    - TuyaSmartBLEKit
-    - TuyaSmartBLEMeshKit
+    - TuyaSmartDemo
     - TuyaSmartDeviceKit
     - TuyaSmartMQTTChannelKit
     - TuyaSmartSceneKit
     - TuyaSmartSocketChannelKit
     - TuyaSmartTimerKit
     - TuyaSmartUtil
-    - TYBluetooth
     - TZImagePickerController
     - UICKeyChainStore
     - YYModel
 
 SPEC CHECKSUMS:
+  ATGestureLockView: 910978a8a645babb94ed8ece49be4c83d3dba319
   CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   EZAudio: 3b1cb4b6d7ebca68f0c2478576d75940aad4aa99
@@ -291,62 +559,88 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
-  MMKV: 319aede3b690572ad00bada5831146c63da3d009
-  MMKVCore: ae976ab3f019a3e4448f884353e0557b324ff136
+  MMKV: 67253edee25a34edf332f91d73fa94a9e038b971
+  MMKVCore: fe398984acac1fa33f92795d1b5fd0a334c944af
   MQTTClient: 902c7bcac1501595f3d0b15178c7205b40331fb0
-  OpenSSL-Universal: ff04c2e6befc3f1247ae039e60c93f76345b3b5a
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
-  React: 07c0ed14694bf2d6e1be967647a2638d8b2835c1
-  react-native-image-picker: f416bd02cd44b316f1cb973f04576289d5a4844c
-  react-native-maps: 787fc33cc7964dddf81ac9a3da06ee1097ee7721
-  react-native-video: ed797b2ffeab88c9ffc43f6b820cc9d09b9bf035
-  rn-fetch-blob: 3c6d4cd9103066331f850d903ab2849746b3b003
-  RNSVG: 661c8bdd904bb1fca41d3605e720dbfc9fb1e512
-  RNViewShot: d9bcd318ceb166a5bfd81c8ce76130774440419b
-  SDWebImage: 84000f962cbfa70c07f19d2234cbfcf5d779b5dc
-  TheAmazingAudioEngine: c0def015facb2e1c896a687a229157cbe2dc8394
+  React: e07cf9e38f5089f014cb1e398ce8c30701be798c
+  react-native-image-picker: f618c6478f390e1103b51ef4d3ef9ad809afe94f
+  react-native-maps: 8736aad2fcc320a08e02704a06cf5bf2dea9769c
+  react-native-video: 6e79a6be00ee1bf5cc6187b1d687552cb90c8d12
+  rn-fetch-blob: fca64845e000f7dc2ef226dead439e2da082c69e
+  RNSVG: dcfa1eb9ed64da9a468acf72d8545380464a8569
+  RNViewShot: d1150f22f766f8ce5472f6a7b24c87ceeefa5460
+  SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
+  TheAmazingAudioEngine: b2bea5fdf6947c2c033f5ce0cbd2b67473e05859
   TPCircularBuffer: 4960a919e667280f7f38963d771f45871b64fe62
-  TuyaRNApi: 388b58e41efe9ee94724d6ec568ec769860550de
-  TuyaRNApiBasic: 69c5097dc9c70ba637c958f27ccc538ec22291fd
-  TuyaSmartActivatorKit: 5f435035cb9ba3d8f00aa6d89b916b005ccac0a6
-  TuyaSmartBaseKit: 834ecf0e240a18f95574e4a0ef5bd8b43172747f
-  TuyaSmartBLEKit: a3f5a6bc3f4f1552e7e02f8de059503e488d1c17
-  TuyaSmartBLEMeshKit: 3372d597e87ceffb74e8e0b82d30536905cab47c
-  TuyaSmartDeviceKit: 0aa4db6acbf2df56947ee80c20c5b23daced3b12
+  TuyaRNApi: fa11c4851270a7ffa28792154e30823bb1b0931f
+  TuyaSmartActivatorKit: a3a648c209046bf2fb6efb362fb82c0b6c075638
+  TuyaSmartBaseKit: 7450992991c7ccff63d28b2994d9d08202b63e3e
+  TuyaSmartBizCore: b4be6a15cb1c04a7a027b90a34cc6f13a1881a3a
+  TuyaSmartDemo: febd147902591efd9cc4a8cbbc101bdb46eaf777
+  TuyaSmartDeviceKit: 7649464a184017f5f35450c80c652bc83cf77a17
   TuyaSmartMQTTChannelKit: 40c98e2123e4c855c62fc6827052b6c63592058c
-  TuyaSmartPanelSDK: a6c819136f73a4cd94022923becfc118bb13d365
-  TuyaSmartSceneKit: 100c842d724ce3ea2cc1a171affea61c9c77ddde
-  TuyaSmartSocketChannelKit: a22e33046b249461bbc679ee10261977b657b09e
+  TuyaSmartPanelBizBundle: 98f2914c3d07806a849874d1ec99263f53353d9d
+  TuyaSmartSceneKit: 15c09cca13241b09a09d3334bd7c25c2d82ea0b8
+  TuyaSmartSocketChannelKit: 49ae6cf90449fc8c9fb1e1735abd8f9e94314fe8
   TuyaSmartTimerKit: 3296a4e8ab503f6f6e84849591cfc3492c28a5ed
-  TuyaSmartUtil: fede5b89a5e0cb62806f752b4337eed3daac45d1
-  TYAlertPickerComponent: 393e521a2e64e4b62891e49bc81bcaca977d50fd
-  TYAnimationKit: 8b83eeb0102409de48f1fdbd9291e4f88e04b28f
-  TYBlockKit: 9b7abda429976308b4dd23e3e48a8e764a81603e
-  TYBluetooth: 0741669a99673b1de97365fb7584eaee75db2bdd
-  TYBluetoothUtils: aad5c30e045f770251cc7105fa9bcb1fe052a616
-  TYEncryptImage: f59a120ac12c29d30bc71b60931cfefe76c95ae6
-  TYFoundationKit: 2c98f35a8392b71b6eaf17ae36345d590d4105e7
-  TYKVStorageLibrary: 61e7d83dd840769753d3dfbe8fa7077e9d789b35
-  TYLanguageBundleRegister: dafa557febfdd84c2730145b9d7b65a3ceb3f9bf
-  TYLogMacro: 807d283cc4769aab4111963704a426e1a5e184dc
-  TYModuleManager: 02d14a3d4703cbc90c275e48dd24bd5c24acb7c5
-  TYModuleServices: 9a8c769e784c329d029e044bfc598d5353d90d91
-  TYNavigationController: f70bebc16084a88908254aefb35192d0b55f3410
-  TYOEMConfig: 9648da75c22be88c8b8b6daeb837ed8929bbe96e
-  TYPanelBundleManager: 889fc95b85a21e13c84d07efd0e2738d34c30fb8
-  TYPanelContext: 53f0acda658bcc595d8d9c466ed0c9dce39b449d
-  TYPanelModule: f56c57ec946766e71a12e60ca82963936247137f
-  TYReactNative: 39c76d8a8155ee2bc0cea0a66a31ba44597db37f
-  TYSmartBusinessLibrary: 6cfa85140b7162dd31fc16624510e389f17ee66a
-  TYSmartEventPredefined: 7e2419cb0384d986ad623d8150a50a3e14636cbb
-  TYTarKit: 8859d8225c23e34d5685c38fdd9a3a5951670a00
-  TYTimerModule: 29f979e4faa6f1e9deb4b7e70d4f121e2e02d774
-  TYUIKit: 6bfe155fc33a484109386ada5e08525316cdd8bd
-  TZImagePickerController: 36ca728ec681228918aa82e993aaab1962281b72
+  TuyaSmartUtil: f29791576de8ab7f6cd6c60f0bb57985924a36eb
+  TYAlertPickerComponent: db2c0a7249cca3d34f9133d4739bfb0671bda4eb
+  TYAnimationKit: 793f074bc9d613773b79defab6e73683b4632a0b
+  TYBlockKit: af5c9cc70f3c23247e925e9fda0b8d8f4c354940
+  TYBluetoothInterface: 4d008029ca5230e923930ea6495603952b40f817
+  TYEncryptImage: 22b4926d98ce877b2f89519b8e7fb6e662e3c39d
+  TYFoundationKit: e90650d9d83389b9e5ad22fa66fd751ae7808582
+  TYKVStorageLibrary: 91437597f30c1e30a157c59cbe81f2ca409d08b0
+  TYLogMacro: 25fbb6de3cabd6b3b3d2f547ae3e09944f139cdd
+  TYModuleManager: f9a94ed23b1b6874507d211813f544aff71bacb8
+  TYModuleServices: a684ac3f1f47b6263a7607daff76ac404f7ad7e2
+  TYNavigationController: f2bb80888f57ab25951737b91a12a2ee197f996e
+  TYOEMConfig: a9154a6f9fd4004ca569d268dacf2e68b5200d97
+  TYPanelBundleManager: 8b1f5c0470f741bb11c374e7507a0e46c94885cd
+  TYPanelContext: 00a29538d73af9bf570b5f0ca1d99f03f207e4af
+  TYPanelModule: 1a0db3c210786c7bac32f901f1be82b45cf0f08e
+  TYRCTAESImageViewManager: 0da38a0a7ec9cd620bc2eb433eebfd76f28271de
+  TYRCTAPMEventManager: e3796bed682663b4074b4e829386084a07f0e6d9
+  TYRCTAPMTrackManager: 3c7822f81c5aacf5f69340186c90914f3a75d942
+  TYRCTBLEManager: 69cf8a00149992c39980065e8154f80a0eef08ab
+  TYRCTBluetoothUtilManager: e42f11527b2576a45d4ea94fc6e335c16e6fc253
+  TYRCTConicGradientViewManager: d67bc894930be7bc967d7b96e046c78a176f1d6c
+  TYRCTCountrySelectManager: fdedc2d6555465e7248a79566b95f7aa9a38761d
+  TYRCTCurveChartViewManager: 945c317dd860a66ba35b29045776aee856dd6038
+  TYRCTEncryptImageDownloadManager: f6105fb4105c38bfe2850cf416b6c6dfcba06efa
+  TYRCTGestureLockViewManager: bc35ba505a2e54aa59fefeb77629858f9b14f4c0
+  TYRCTHomeDevManager: 459e4f7491f99aa8dde3fd69cb100a43c6fa7e5c
+  TYRCTHomeManager: 7897658d68595ef4add170c3f7c1332ed46bf65b
+  TYRCTHueCircleViewManager: ee1698f3e2b493275aee509a88511b67d1b854c9
+  TYRCTImageEncryptUploadManager: 3b98017c9b7017444e8c82d56f3cd05f6c3da6d8
+  TYRCTLineChartViewManager: 92db7432a4fdd79620f01923bcdfd8b94b181442
+  TYRCTMeshPanelManager: e38a43575c545b24ae82fe1492165744d8043084
+  TYRCTMqttManager: f5a2c9b67a9a98534737dc3dd87972b61c74dc01
+  TYRCTMultiImagePickerManager: ab1818a15d6dfe01622172ab7c3ae19b398c7ca6
+  TYRCTMultiLineChartViewManager: 79d891a50c1f19f8c5448a23b7ff5f2b08addf13
+  TYRCTMusicManager: 42c8295a39a3c14935cc727fe8d43b5173d5c7d5
+  TYRCTNavManager: 8b593e4d044a2e4bb919243ec6da559378cbc9fa
+  TYRCTNewTopBarManager: 8896c95f54b98b96b48be78fa3294d46c3ef5ae1
+  TYRCTPanelManager: 463d04a3d5709356b078003ec9b1f64b1e901c73
+  TYRCTPickerManager: b94c3e7b73bdae6d2b79cfcadd24ab75dcabcb30
+  TYRCTPublicManager: 8b5e89578eb5f218cf80c85197b869cac1389269
+  TYRCTSliderManager: 3d24efb76ab83981e714b1ccbbea1544465b1a54
+  TYRCTStandardGroupManager: 9b9b9241891c0a6d11f0f6b8e77a5b71b62be990
+  TYRCTSwitchManager: dede81b530818ec4e098efb516019e392e8d2b66
+  TYRCTTopBarManager: 5d941cfb76a75cc3294918e2d1c1a42d10864b07
+  TYRCTZigbeeEventManager: 7da78c44ce70ffb484b018500d4d70c6bf8a3342
+  TYReactNative: 558de657742cd9f199908254512e6dc8b4d1da16
+  TYSmartBusinessLibrary: f010f63ff97cf270a8f674f644f1f640561778b1
+  TYSmartEventPredefined: 8ae197319b8161c3b1dad3c78d69ef72f6c94665
+  TYTarKit: 207395912e490a77710e3ffb75886e1a1d5140a6
+  TYTimerModule: 09bb531146a84d3b8386fbdf834eca2613cf331f
+  TYUIKit: 422e309dbe553e2371025a1a9210cec43f2f347f
+  TZImagePickerController: 4e7a7b3d314f8a75f11042931dfd9d34c270c7db
   UICKeyChainStore: 6a218644594e12f855ec2a10f4fc576c1a69daee
-  yoga: 7af8668e1789200f493ef5770ad8a1df140cf068
+  yoga: 4c6c522142cdf17dead62df6d73ae1dfe3770346
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 43856442ca211db327f762dc9f25eb78cb0a5d55
+PODFILE CHECKSUM: 581781663b9e588bf2ed12015be3cff0de1a6794
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.9.3

@@ -1,13 +1,13 @@
 
 source 'https://cdn.cocoapods.org/'
-source 'https://github.com/TuyaInc/TYPublicSpecs.git'
+source 'https://github.com/TuyaInc/TuyaPublicSpecs.git'
 
 platform :ios, '9.0'
 
 target 'TuyaSmartPanelSDK_Example' do
   
-   pod 'SDWebImage/Core'
-   pod 'TuyaSmartPanelSDK'
+   pod 'TuyaSmartDemo', :subspecs => [ "Login", "SmartScene", "DeviceList", "UserInfo" ]
+   pod 'TuyaSmartPanelBizBundle'
    # 若需要扫地机功能，请依赖扫地机相关插件
    # pod "TuyaRNApi/Sweeper"
 

@@ -21,11 +21,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		8F6295B18A02585DEA35EB1B /* libPods-TuyaSmartPanelSDK_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCAE1194EF82127641286AE3 /* libPods-TuyaSmartPanelSDK_Example.a */; };
-		E57A68A6240A66CE00806120 /* TYDeviceListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E57A689C240A66CC00806120 /* TYDeviceListViewCell.m */; };
-		E57A68A7240A66CE00806120 /* TYPDeviceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E57A689E240A66CD00806120 /* TYPDeviceListViewController.m */; };
-		E57A68A8240A66CE00806120 /* TYPLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E57A68A0240A66CD00806120 /* TYPLoginViewController.m */; };
-		E57A68A9240A66CE00806120 /* TYPLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E57A68A1240A66CD00806120 /* TYPLoginViewController.xib */; };
-		E57A68AA240A66CE00806120 /* TYPSmartHomeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E57A68A5240A66CE00806120 /* TYPSmartHomeManager.m */; };
 		E5BCEA27240CA16B00252EA5 /* t_s.bmp in Resources */ = {isa = PBXBuildFile; fileRef = E5BCEA26240CA16B00252EA5 /* t_s.bmp */; };
 /* End PBXBuildFile section */
 
@@ -64,15 +59,6 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98FBE3A11E7976A50EFA2A78 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DCAE1194EF82127641286AE3 /* libPods-TuyaSmartPanelSDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TuyaSmartPanelSDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E57A689C240A66CC00806120 /* TYDeviceListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYDeviceListViewCell.m; sourceTree = "<group>"; };
-		E57A689D240A66CC00806120 /* TYPDeviceListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPDeviceListViewController.h; sourceTree = "<group>"; };
-		E57A689E240A66CD00806120 /* TYPDeviceListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPDeviceListViewController.m; sourceTree = "<group>"; };
-		E57A689F240A66CD00806120 /* TYDeviceListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDeviceListViewCell.h; sourceTree = "<group>"; };
-		E57A68A0240A66CD00806120 /* TYPLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPLoginViewController.m; sourceTree = "<group>"; };
-		E57A68A1240A66CD00806120 /* TYPLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYPLoginViewController.xib; sourceTree = "<group>"; };
-		E57A68A2240A66CD00806120 /* TYPLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPLoginViewController.h; sourceTree = "<group>"; };
-		E57A68A4240A66CD00806120 /* TYPSmartHomeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPSmartHomeManager.h; sourceTree = "<group>"; };
-		E57A68A5240A66CE00806120 /* TYPSmartHomeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPSmartHomeManager.m; sourceTree = "<group>"; };
 		E5BCEA26240CA16B00252EA5 /* t_s.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = t_s.bmp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,15 +134,6 @@
 			children = (
 				6003F59C195388D20070C39A /* TYAppDelegate.h */,
 				6003F59D195388D20070C39A /* TYAppDelegate.m */,
-				E57A689F240A66CD00806120 /* TYDeviceListViewCell.h */,
-				E57A689C240A66CC00806120 /* TYDeviceListViewCell.m */,
-				E57A689D240A66CC00806120 /* TYPDeviceListViewController.h */,
-				E57A689E240A66CD00806120 /* TYPDeviceListViewController.m */,
-				E57A68A2240A66CD00806120 /* TYPLoginViewController.h */,
-				E57A68A0240A66CD00806120 /* TYPLoginViewController.m */,
-				E57A68A1240A66CD00806120 /* TYPLoginViewController.xib */,
-				E57A68A4240A66CD00806120 /* TYPSmartHomeManager.h */,
-				E57A68A5240A66CE00806120 /* TYPSmartHomeManager.m */,
 				E5BCEA26240CA16B00252EA5 /* t_s.bmp */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
@@ -257,7 +234,7 @@
 				ORGANIZATIONNAME = TuyaInc;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = 94JFPTRDN5;
+						DevelopmentTeam = 5VNYFS5E7K;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -289,7 +266,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E57A68A9240A66CE00806120 /* TYPLoginViewController.xib in Resources */,
 				E5BCEA27240CA16B00252EA5 /* t_s.bmp in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -337,69 +313,144 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TuyaSmartPanelSDK_Example/Pods-TuyaSmartPanelSDK_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ATGestureLockView/ATGestureLockView.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
-				"${PODS_ROOT}/TYLanguageBundleRegister/Assets/TYLanguageBundleRegister.bundle",
-				"${PODS_ROOT}/TYNavigationController/TYNavigationController/Assets/TYNavigationRes.bundle",
-				"${PODS_ROOT}/TYOEMConfig/Assets/customColor.plist",
-				"${PODS_ROOT}/TYPanelModule/Assets/ios.base.jsbundle",
-				"${PODS_ROOT}/TYPanelModule/Assets/panel_black_more@2x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/panel_black_more@3x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/panel_white_more@2x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/panel_white_more@3x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/tysmart_add@2x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/tysmart_add@3x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/tysmart_more@2x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/tysmart_more@3x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_firmware_loading@2x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_firmware_loading@3x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_item_selected@2x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_item_selected@3x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_lamp_hsl_circle@2x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_lamp_hsl_circle@3x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_panel_arrows@2x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_panel_arrows@3x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_panel_minus@2x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_panel_minus@3x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_panel_more@2x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_panel_more@3x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_panel_plus@2x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_panel_plus@3x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_panel_select@2x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_panel_select@3x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_qrcode_tip_cn@2x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_qrcode_tip_cn@3x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_qrcode_tip_en@2x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_qrcode_tip_en@3x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_qr_bg2@2x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_qr_bg2@3x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_qr_bg@2x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_qr_bg@3x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_QR_tip_camera@2x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_QR_tip_camera@3x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_QR_tip_privacy@2x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_QR_tip_privacy@3x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_QR_tip_set@2x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_QR_tip_set@3x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_QR_tip_switch@2x.png",
-				"${PODS_ROOT}/TYPanelModule/Assets/ty_QR_tip_switch@3x.png",
-				"${PODS_ROOT}/TYSmartBusinessLibrary/Assets/cell_view_arrow@2x.png",
-				"${PODS_ROOT}/TYSmartBusinessLibrary/Assets/cell_view_arrow@3x.png",
-				"${PODS_ROOT}/TYSmartBusinessLibrary/Assets/TPViews.bundle",
-				"${PODS_ROOT}/TYSmartBusinessLibrary/Assets/TYCropViewControllerBundle.bundle",
-				"${PODS_ROOT}/TYSmartBusinessLibrary/Assets/TYSmartBusinessLibraryRes.bundle",
-				"${PODS_ROOT}/TYTimerModule/Assets/ty_timer_invalid_icon@2x.png",
-				"${PODS_ROOT}/TYTimerModule/Assets/ty_timer_invalid_icon@3x.png",
-				"${PODS_ROOT}/TYTimerModule/Assets/ty_timer_list_empty_icon@2x.png",
-				"${PODS_ROOT}/TYTimerModule/Assets/ty_timer_list_empty_icon@3x.png",
+				"${PODS_ROOT}/TYNavigationController/TYNavigationController-1.10.1/Assets/TYNavigationRes.bundle",
+				"${PODS_ROOT}/TYOEMConfig/TYOEMConfig-1.13.0.bizbundle.3.17.6.1/Assets/resources/customColor.plist",
+				"${PODS_ROOT}/TYPanelContext/TYPanelContext-0.2.6.bizbundle.3.17.0/Assets/bundles/TYPanelContext.bundle",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ios.base.jsbundle",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/panel_black_more@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/panel_black_more@3x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/panel_white_more@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/panel_white_more@3x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/tysmart_add@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/tysmart_add@3x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/tysmart_more@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/tysmart_more@3x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_firmware_loading@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_firmware_loading@3x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_item_selected@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_item_selected@3x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_lamp_hsl_circle@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_lamp_hsl_circle@3x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_panel_arrows@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_panel_arrows@3x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_panel_minus@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_panel_minus@3x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_panel_more@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_panel_more@3x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_panel_plus@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_panel_plus@3x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_panel_select@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_panel_select@3x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_qrcode_tip_cn@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_qrcode_tip_cn@3x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_qrcode_tip_en@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_qrcode_tip_en@3x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_qr_bg2@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_qr_bg2@3x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_qr_bg@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_qr_bg@3x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_QR_tip_camera@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_QR_tip_camera@3x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_QR_tip_privacy@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_QR_tip_privacy@3x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_QR_tip_set@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_QR_tip_set@3x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_QR_tip_switch@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/ty_QR_tip_switch@3x.png",
+				"${PODS_ROOT}/TYSmartBusinessLibrary/TYSmartBusinessLibrary-3.17.5.bizbundle.3.17.0.3/Assets/resources/cell_view_arrow@2x.png",
+				"${PODS_ROOT}/TYSmartBusinessLibrary/TYSmartBusinessLibrary-3.17.5.bizbundle.3.17.0.3/Assets/resources/cell_view_arrow@3x.png",
+				"${PODS_ROOT}/TYSmartBusinessLibrary/TYSmartBusinessLibrary-3.17.5.bizbundle.3.17.0.3/Assets/bundles/TPViews.bundle",
+				"${PODS_ROOT}/TYSmartBusinessLibrary/TYSmartBusinessLibrary-3.17.5.bizbundle.3.17.0.3/Assets/bundles/TYCropViewControllerBundle.bundle",
+				"${PODS_ROOT}/TYSmartBusinessLibrary/TYSmartBusinessLibrary-3.17.5.bizbundle.3.17.0.3/Assets/bundles/TYSmartBusinessLibraryRes.bundle",
+				"${PODS_ROOT}/TYTimerModule/TYTimerModule-2.2.0/Assets/Assets/ty_timer_invalid_icon@2x.png",
+				"${PODS_ROOT}/TYTimerModule/TYTimerModule-2.2.0/Assets/Assets/ty_timer_invalid_icon@3x.png",
+				"${PODS_ROOT}/TYTimerModule/TYTimerModule-2.2.0/Assets/Assets/ty_timer_list_empty_icon@2x.png",
+				"${PODS_ROOT}/TYTimerModule/TYTimerModule-2.2.0/Assets/Assets/ty_timer_list_empty_icon@3x.png",
+				"${PODS_ROOT}/TYTimerModule/TYTimerModule-2.2.0/Assets/ty_timer_invalid_icon@2x.png",
+				"${PODS_ROOT}/TYTimerModule/TYTimerModule-2.2.0/Assets/ty_timer_invalid_icon@3x.png",
+				"${PODS_ROOT}/TYTimerModule/TYTimerModule-2.2.0/Assets/ty_timer_list_empty_icon@2x.png",
+				"${PODS_ROOT}/TYTimerModule/TYTimerModule-2.2.0/Assets/ty_timer_list_empty_icon@3x.png",
 				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+				"${PODS_ROOT}/TuyaSmartBizCore/TuyaSmartBizCore-3.17.6.3/Assets/resources/custom.json",
+				"${PODS_ROOT}/TuyaSmartBizCore/TuyaSmartBizCore-3.17.6.3/Assets/bundles/TuyaSmartBizCore.bundle",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/Base/Assets/cell_view_arrow@2x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/Base/Assets/cell_view_arrow@3x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/Base/Assets/customColor.plist",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/Base/Assets/en.lproj/Localizable.strings",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/Base/Assets/en.lproj/TPViewsLocalizable.strings",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/Base/Assets/phoneCodeList.plist",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/Base/Assets/tp_top_bar_back@2x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/Base/Assets/tp_top_bar_back@3x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/Base/Assets/tysmart_selected@2x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/Base/Assets/tysmart_selected@3x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/Base/Assets/ty_mainbt_about@2x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/Base/Assets/ty_mainbt_about@3x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/Base/Assets/ty_mainbt_about_active@2x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/Base/Assets/ty_mainbt_about_active@3x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/Base/Assets/ty_mainbt_add@2x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/Base/Assets/ty_mainbt_add@3x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/Base/Assets/ty_mainbt_add_active@2x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/Base/Assets/ty_mainbt_add_active@3x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/Base/Assets/ty_mainbt_devicelist@2x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/Base/Assets/ty_mainbt_devicelist@3x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/Base/Assets/ty_mainbt_devicelist_active@2x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/Base/Assets/ty_mainbt_devicelist_active@3x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/Base/Assets/zh-Hans.lproj/Localizable.strings",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/Base/Assets/zh-Hans.lproj/TPViewsLocalizable.strings",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/Base/Assets/en.lproj",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/Base/Assets/zh-Hans.lproj",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/DeviceList/Assets/power_off@2x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/DeviceList/Assets/power_off@3x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/DeviceList/Assets/power_on@2x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/DeviceList/Assets/power_on@3x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/DeviceList/Assets/ty_devicelist_dot_gray@2x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/DeviceList/Assets/ty_devicelist_dot_gray@3x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/DeviceList/Assets/ty_devicelist_dot_green@2x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/DeviceList/Assets/ty_devicelist_dot_green@3x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/DeviceList/Assets/ty_devicelist_share_gray@2x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/DeviceList/Assets/ty_devicelist_share_gray@3x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/DeviceList/Assets/ty_devicelist_share_green@2x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/DeviceList/Assets/ty_devicelist_share_green@3x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/DeviceList/Assets/ty_list_empty@2x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/DeviceList/Assets/ty_list_empty@3x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/DeviceList/Assets/ty_panel_arrows@2x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/DeviceList/Assets/ty_panel_arrows@3x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/DeviceList/Assets/ty_panel_minus@2x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/DeviceList/Assets/ty_panel_minus@3x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/DeviceList/Assets/ty_panel_plus@2x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/DeviceList/Assets/ty_panel_plus@3x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/DeviceList/Assets/ty_panel_select@2x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/DeviceList/Assets/ty_panel_select@3x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/SmartScene/Assets/ty_add@2x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/SmartScene/Assets/ty_add@3x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/SmartScene/Assets/ty_index_custom@2x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/SmartScene/Assets/ty_index_custom@3x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/SmartScene/Assets/ty_index_scene_close@2x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/SmartScene/Assets/ty_index_scene_close@3x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/SmartScene/Assets/ty_scene_active@3x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/SmartScene/Assets/ty_scene_add_action@2x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/SmartScene/Assets/ty_scene_add_action@3x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/SmartScene/Assets/ty_scene_custom2@2x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/SmartScene/Assets/ty_scene_custom2@3x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/SmartScene/Assets/ty_scene_error@2x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/SmartScene/Assets/ty_scene_error@3x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/SmartScene/Assets/ty_scene_gray@3x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/SmartScene/Assets/ty_scene_selected@2x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/SmartScene/Assets/ty_scene_selected@3x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/SmartScene/Assets/ty_scene_switch@2x.png",
+				"${PODS_ROOT}/TuyaSmartDemo/TuyaSmartDemo/Classes/SmartScene/Assets/ty_scene_switch@3x.png",
+				"${PODS_ROOT}/TuyaSmartPanelBizBundle/TuyaSmartPanelBizBundle-3.17.0.2/Assets/bundles/TuyaSmartPanelBizBundle.bundle",
 				"${PODS_ROOT}/TuyaSmartUtil/ios/TuyaSmartUtil.framework/Versions/A/Resources/TuyaSmartUtil.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ATGestureLockView.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TYLanguageBundleRegister.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TYNavigationRes.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/customColor.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TYPanelContext.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ios.base.jsbundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/panel_black_more@2x.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/panel_black_more@3x.png",
@@ -451,6 +502,62 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_timer_list_empty_icon@2x.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_timer_list_empty_icon@3x.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/custom.json",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TuyaSmartBizCore.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Localizable.strings",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TPViewsLocalizable.strings",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/phoneCodeList.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/tp_top_bar_back@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/tp_top_bar_back@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/tysmart_selected@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/tysmart_selected@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_mainbt_about@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_mainbt_about@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_mainbt_about_active@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_mainbt_about_active@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_mainbt_add@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_mainbt_add@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_mainbt_add_active@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_mainbt_add_active@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_mainbt_devicelist@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_mainbt_devicelist@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_mainbt_devicelist_active@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_mainbt_devicelist_active@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hans.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/power_off@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/power_off@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/power_on@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/power_on@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_devicelist_dot_gray@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_devicelist_dot_gray@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_devicelist_dot_green@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_devicelist_dot_green@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_devicelist_share_gray@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_devicelist_share_gray@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_devicelist_share_green@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_devicelist_share_green@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_list_empty@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_list_empty@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_add@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_add@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_index_custom@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_index_custom@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_index_scene_close@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_index_scene_close@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_scene_active@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_scene_add_action@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_scene_add_action@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_scene_custom2@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_scene_custom2@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_scene_error@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_scene_error@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_scene_gray@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_scene_selected@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_scene_selected@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_scene_switch@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_scene_switch@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TuyaSmartPanelBizBundle.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TuyaSmartUtil.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,11 +572,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E57A68A8240A66CE00806120 /* TYPLoginViewController.m in Sources */,
-				E57A68A7240A66CE00806120 /* TYPDeviceListViewController.m in Sources */,
-				E57A68A6240A66CE00806120 /* TYDeviceListViewCell.m in Sources */,
 				6003F59E195388D20070C39A /* TYAppDelegate.m in Sources */,
-				E57A68AA240A66CE00806120 /* TYPSmartHomeManager.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -598,7 +701,7 @@
 			baseConfigurationReference = 6227ABE0AFEFEEEABB91053C /* Pods-TuyaSmartPanelSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 94JFPTRDN5;
+				DEVELOPMENT_TEAM = 5VNYFS5E7K;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TuyaSmartPanelSDK/TuyaSmartPanelSDK-Prefix.pch";
 				INFOPLIST_FILE = "TuyaSmartPanelSDK/TuyaSmartPanelSDK-Info.plist";
@@ -615,7 +718,7 @@
 			baseConfigurationReference = 02DFB9D55172040D99B5362F /* Pods-TuyaSmartPanelSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 94JFPTRDN5;
+				DEVELOPMENT_TEAM = 5VNYFS5E7K;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TuyaSmartPanelSDK/TuyaSmartPanelSDK-Prefix.pch";
 				INFOPLIST_FILE = "TuyaSmartPanelSDK/TuyaSmartPanelSDK-Info.plist";
